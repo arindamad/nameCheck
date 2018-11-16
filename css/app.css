@@ -5,6 +5,10 @@
     -o-box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    font-size: 16px;
 }
 .mySection{
     width: 100%;
@@ -12,5 +16,42 @@
     background: #f2f2ff;
 }
 .programCont{
-    max-width: 900px;
+    max-width: 450px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.programCont h2{
+    margin-bottom: 15px;
+}
+.namesGroup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.namesGroup label{
+    margin-bottom: 5px;
+}
+.namesGroup input{
+    width: 100%;
+    display: block;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+.btnsect{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.matchBtn{
+    padding: 10px 35px;
+    background: #fff;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+    font-weight: 800;
 }
