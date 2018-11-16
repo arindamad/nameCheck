@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.mySection{
+    width: 100%;
+    height: 100vh;
+    background: #f2f2ff;
+}
+.programCont{
+    max-width: 900px;
+}
