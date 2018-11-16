@@ -12,26 +12,13 @@ for(var i=0; i<name1.length; i++){
                 for(var index=0; index<print.length; index++){
                     if(print[index]!=name1[i]){
                         print+=name1[i];
-                    }
-                    
+                    }                    
                 }
-            }  
-                     
+            }                       
 
         }
     }
     
 }
-// var finalResult="";
-// for(var index=0; index<print.length; index++){
-//     for(var net=index+1; net<print.length; net++){
-//         console.log(net);
-//         if(print[index]==print[net]){
-//             finalResult+=print[index];
-//         } 
-//     }
-//     // console.log(index);
-    
-// }  
+ 
 console.log(print);
-// console.log(finalResult);
